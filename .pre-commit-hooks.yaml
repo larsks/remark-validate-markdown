@@ -1,0 +1,10 @@
+- id: remark-validate-markdown
+  name: Validate Markdown with Remark
+  language: script
+  files: "\\.md"
+  types:
+    - text
+  stages:
+    - commit
+
+  entry: remark-validate-markdown
